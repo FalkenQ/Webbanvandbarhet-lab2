@@ -8,6 +8,7 @@
     font-size: 1.5rem;
     font-family: var(--font-first-word);
     padding: 2px;
+    text-decoration: underline;
 }
 
 /* Header */
@@ -55,6 +56,10 @@ h1 {
     font-size: 50px;
     font-family: var(--font-heading);
     font-style: italic;
+}
+
+h2 {
+    font-family: var(--font-heading);
 }
 
 p {
@@ -124,6 +129,10 @@ body {
         text-decoration: underline;
     }
 
+    h2 {
+        text-align: center;
+    }
+
     /* Paragrafer / Bilder */
     .paragraph-container {
         width: 100%;
@@ -171,23 +180,23 @@ body {
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15))
     }
 
-    .education-end {
+    .future {
+        width: 100%;
+        padding: 2rem;
+        margin: auto;
         background-color: antiquewhite;
+        box-sizing: border-box;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
     }
 
-    .education-end h2 {
-        font-family: var(--font-heading);
-        font-style: italic;
-        text-align: start;
-        padding: 1.5rem 0 1rem 1rem;
-        margin: 0;
-    }
-    .future {
+    /* Sammankomster */
+    .study {
         width: 90%;
+        font-size: 1.4rem;
+        padding: 15px;
+        text-align: start;
+        align-items: center;
         margin: auto;
-        padding-bottom: 2rem;
     }
 
-    
 }
