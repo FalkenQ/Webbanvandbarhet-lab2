@@ -142,6 +142,7 @@ body {
         width: 90%;
         font-size: 1.4rem;
         padding: 15px;
+        text-align: start;
         align-items: center;
         margin: auto;
     }
@@ -155,7 +156,7 @@ body {
     }
 
     /* Utbildningsplans text */
-    .education-text {
+    .education-container {
         flex-direction: column;
         padding: 1rem;
     }
@@ -165,17 +166,28 @@ body {
         font-size: 1.4rem;
         padding: 15px;
         align-items: center;
+        text-align: start;
         margin: auto;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15))
     }
 
+    .education-end {
+        background-color: antiquewhite;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    }
+
+    .education-end h2 {
+        font-family: var(--font-heading);
+        font-style: italic;
+        text-align: start;
+        padding: 1.5rem 0 1rem 1rem;
+        margin: 0;
+    }
     .future {
         width: 90%;
         margin: auto;
-        padding: 2rem;
-        background-color: antiquewhite;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
-        }
+        padding-bottom: 2rem;
+    }
 
     
 }
