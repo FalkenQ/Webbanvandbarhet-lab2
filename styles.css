@@ -1,6 +1,13 @@
 :root {
     --font-heading: 'Oswald', sans-serif;
     --font-body: 'Roboto Condensed', sans-serif;
+    --font-first-word: 'Bebas Neue', sans-serif;
+}
+
+.first-word {
+    font-size: 1.5rem;
+    font-family: var(--font-first-word);
+    padding: 2px;
 }
 
 /* Header */
@@ -117,24 +124,26 @@ body {
         text-decoration: underline;
     }
 
+    /* Paragrafer / Bilder */
     .paragraph-container {
         width: 100%;
         flex-direction: column;
         text-align: center;
     }
 
+    /* Intro container */
     .intro-container {
         flex-direction: column;
         background-color: antiquewhite;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
 
-    .intro,
-    .intro2 {
+    .intro {
         width: 90%;
         font-size: 1.4rem;
         padding: 15px;
         align-items: center;
+        margin: auto;
     }
 
     #education-image {
@@ -144,4 +153,29 @@ body {
         border-radius: 25px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
+
+    /* Utbildningsplans text */
+    .education-text {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .education {
+        width: 90%;
+        font-size: 1.4rem;
+        padding: 15px;
+        align-items: center;
+        margin: auto;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15))
+    }
+
+    .future {
+        width: 90%;
+        margin: auto;
+        padding: 2rem;
+        background-color: antiquewhite;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+        }
+
+    
 }
