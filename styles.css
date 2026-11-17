@@ -39,7 +39,7 @@ header {
 .navbar ul {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 100px;
     font-size: 30px;
 }
 
@@ -76,7 +76,7 @@ p {
 }
 
 /* Body */
-/*
+
 body {
     margin: 0;
 }
@@ -87,28 +87,38 @@ body {
     flex-wrap: wrap;
 }
 
+/* Intro container */
 .intro-container {
     width: 100%;
     display: flex;
     flex-direction: row;
     background-color: antiquewhite;
-    padding: 10px;
+    padding: 2rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .intro {
     display: flex;
     flex-direction: column;
-    width: 60%;
-    padding-right: 2rem;
+    width: 90%;
+}
+
+.intro .first-word {
+    font-size: 2rem;
 }
 
 #education-image {
-    width: 900px;
+    width: 50%;
     height: auto;
     border-radius: 5px;
     padding-left: 4rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}*/
+}
+
+/* Education container */
+.education-container {
+    padding: 1rem;
+}
 
 @media (max-width: 768px) {
 
