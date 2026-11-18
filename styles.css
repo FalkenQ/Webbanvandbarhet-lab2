@@ -175,6 +175,10 @@ h2 {
     border-bottom: 2px solid black;
 }
 
+.study-container .first-word {
+    font-size: 2rem;
+}
+
 .study {
     width: 40%;
     padding-left: 1rem;
@@ -209,10 +213,32 @@ h3 {
     padding-left: 1rem;
 }
 
-.competence-container {
-    border-bottom: 2px solid black;
+/* After exam */
+.after-study .first-word {
+    font-size: 2rem;
 }
 
+/* Marie's quote */
+#marie-image {
+    display: block;
+    margin-inline: auto;
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.quote-container {
+    background-color: antiquewhite;
+    padding: 1rem;
+}
+
+.quote-text {
+    font-family: var(--font-quote);
+    text-align: center;
+    padding: 0%;
+    width: 100%;
+}
 
 
 @media (max-width: 768px) {
@@ -224,6 +250,13 @@ h3 {
     }
 
     .education .first-word {
+    font-size: 1.5rem;
+    font-family: var(--font-first-word);
+    padding: 2px;
+    text-decoration: underline;
+    }
+
+    .study .first-word {
     font-size: 1.5rem;
     font-family: var(--font-first-word);
     padding: 2px;
@@ -292,7 +325,7 @@ h3 {
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
 
-        #education-image2 {
+    #education-image2 {
         width: 80%;
         height: auto;
         padding: 1rem;
@@ -350,6 +383,7 @@ h3 {
     }
 
     /* Sammankomster */
+
     .study {
         width: 90%;
         font-size: 1.4rem;
@@ -376,6 +410,7 @@ h3 {
     .exam {
         background-color: #ffffff;
         margin: 0 1.5rem;
+        padding: 0;
         border-radius: 5px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
     }
