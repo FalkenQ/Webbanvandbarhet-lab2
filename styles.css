@@ -58,6 +58,8 @@ h1 {
     font-size: 50px;
     font-family: var(--font-heading);
     font-style: italic;
+    text-align: center;
+    text-decoration: underline;
 }
 
 h2 {
@@ -110,7 +112,6 @@ body {
     width: 50%;
     height: auto;
     border-radius: 5px;
-    padding-left: 4rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -123,12 +124,11 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1rem;
-    padding: 1rem;
 }
 
 .education {
-    width: 45%;
+    width: 90%;
+    padding: 1rem;
 }
 
 .programming-languages {
@@ -137,18 +137,98 @@ body {
     font-style: italic;
 }
 
+.code-languages {
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: row;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 
+#education-image2 {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin: 1.5rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 
 /* Future sektionen */
 .future {
     background-color: antiquewhite;
     width: 100%;
+    font-family: var(--font-quote);
     padding: 4rem;
     text-align: center;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+/* Study format */
+h2 {
+    font-size: 2.5rem;
+    font-style: italic;
+    text-decoration: underline;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+.study-container {
+    border-bottom: 2px solid black;
+}
+
+.study {
+    width: 40%;
+    padding-left: 1rem;
+}
+
+/* Study details , exam*/
+h3 {
+    font-size: 2rem;
+    padding-left: 1.5rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.classification {
+    background-color:antiquewhite;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 0.5rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.exam {
+    background-color:antiquewhite;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 0.5rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.competence {
+    width: 40%;
+    padding-left: 1rem;
+}
+
+.competence-container {
+    border-bottom: 2px solid black;
+}
+
+
+
 @media (max-width: 768px) {
+    .intro .first-word {
+    font-size: 1.5rem;
+    font-family: var(--font-first-word);
+    padding: 2px;
+    text-decoration: underline;
+    }
+
+    .education .first-word {
+    font-size: 1.5rem;
+    font-family: var(--font-first-word);
+    padding: 2px;
+    text-decoration: underline;
+    }
 
     body {
         margin: 0;
@@ -208,12 +288,23 @@ body {
         height: auto;
         padding: 1rem;
         border-radius: 25px;
+        margin: auto;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+        #education-image2 {
+        width: 80%;
+        height: auto;
+        padding: 1rem;
+        border-radius: 25px;
+        margin: auto;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
 
     .code-languages {
         background-color: antiquewhite;
         border-radius: 5px;
+        flex-direction: column;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
 
@@ -269,10 +360,15 @@ body {
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15))
     }
 
+    .study-container {
+        border-bottom: 0px;
+    }
+
     /* Behörigheter */
     .competence-container {
         background-color: antiquewhite;
         padding-bottom: 1.5rem;
+        border: 0;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
     }
 
