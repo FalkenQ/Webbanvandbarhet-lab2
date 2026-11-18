@@ -39,7 +39,7 @@ header {
 .navbar ul {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 3rem;
     font-size: 30px;
 }
 
@@ -92,14 +92,13 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
+    box-sizing: border-box;
     background-color: antiquewhite;
     padding: 2rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .intro {
-    display: flex;
-    flex-direction: column;
     width: 90%;
 }
 
@@ -116,8 +115,37 @@ body {
 }
 
 /* Education container */
+.education .first-word {
+    font-size: 2rem;
+}
+
 .education-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
     padding: 1rem;
+}
+
+.education {
+    width: 45%;
+}
+
+.programming-languages {
+    font-size: 2.2rem;
+    font-family: var(--font-body);
+    font-style: italic;
+}
+
+
+
+/* Future sektionen */
+.future {
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 4rem;
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 @media (max-width: 768px) {
@@ -180,6 +208,12 @@ body {
         height: auto;
         padding: 1rem;
         border-radius: 25px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .code-languages {
+        background-color: antiquewhite;
+        border-radius: 5px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
 
