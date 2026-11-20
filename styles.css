@@ -157,7 +157,9 @@ body {
     background-color: antiquewhite;
     width: 100%;
     font-family: var(--font-quote);
+    font-size: 2rem;
     padding: 4rem;
+    margin: auto;
     text-align: center;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -236,7 +238,10 @@ h3 {
 .quote-text {
     font-family: var(--font-quote);
     text-align: center;
-    padding: 0%;
+    padding: 0;
+    padding-bottom: 1rem;
+    margin: 0;
+    font-size: 2rem;
     width: 100%;
 }
 
@@ -478,7 +483,7 @@ h3 {
         padding-top: 1rem;
     }
 
-    .marie-quote p {
+    .marie-quote blockquote {
         font-family: var(--font-quote);
         width: 90%;
         font-size: 1.5rem;
