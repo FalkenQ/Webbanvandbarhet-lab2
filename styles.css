@@ -58,7 +58,8 @@ h1 {
     font-size: 50px;
     font-family: var(--font-heading);
     font-style: italic;
-    text-align: center;
+    margin: auto;
+    padding: 2rem;
     text-decoration: underline;
 }
 
@@ -72,9 +73,14 @@ h3 {
 
 p {
     font-family: var(--font-body);
-    font-size: 30px;
-    width: 50%;
-    font-weight: bold;
+    font-size: 1.75rem;
+    width: 90%;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+p .first-word {
+    font-size: 2rem;
 }
 
 /* Body */
@@ -102,10 +108,8 @@ body {
 
 .intro {
     width: 90%;
-}
-
-.intro .first-word {
     font-size: 2rem;
+    font-weight: bold;
 }
 
 #education-image {
@@ -215,11 +219,6 @@ h3 {
     padding-left: 1rem;
 }
 
-/* After exam */
-.after-study .first-word {
-    font-size: 2rem;
-}
-
 /* Marie's quote */
 #marie-image {
     display: block;
@@ -252,6 +251,10 @@ h3 {
     font-family: var(--font-first-word);
     padding: 2px;
     text-decoration: underline;
+    }
+
+    p .first-word {
+        font-size: 1.5rem;
     }
 
     .education .first-word {
@@ -314,11 +317,15 @@ h3 {
 
     .intro {
         width: 90%;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         padding: 15px;
         text-align: start;
         align-items: center;
         margin: auto;
+    }
+
+    p {
+        font-size: 1.5rem;
     }
 
     #education-image {
