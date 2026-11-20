@@ -326,6 +326,8 @@ h3 {
 
     p {
         font-size: 1.5rem;
+        text-align: start;
+        margin: auto;
     }
 
     #education-image {
